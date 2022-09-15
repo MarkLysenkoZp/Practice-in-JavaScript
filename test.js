@@ -46,22 +46,22 @@
   mathsUpdate(6,2,"add")
 
 
- function hash_Maths(a,b, action = 'add'){
+  function hash_Maths(a,b, action = 'add'){
     const maths = { 
       add: function() {return a + b},
       mult: function() {return a * b},
       min: function() {return a - b},
       div: function() {return a / b},
     }; 
-        
-        const result  = Object.keys(maths);
-        const isFound = result.includes(action);
 
-        if(isFound == false){
-          throw new Error('Arithmetic operation not found');
-        }          
+     const result  = Object.keys(maths);
+     const isFound = result.includes(action);
 
-        const operation = maths[action];
-         return  operation()   
+     if(isFound == false){
+         throw new Error('Arithmetic operation not found');
+      }          
+
+       const operation = maths[action];
+       return  operation()   
 }
 hash_Maths(6,2,'add')
