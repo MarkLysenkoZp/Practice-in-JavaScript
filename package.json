@@ -16,5 +16,8 @@
     "url": "https://github.com/MarkLysenkoZp/Practice-in-JavaScript/issues"
   },
   "homepage": "https://github.com/MarkLysenkoZp/Practice-in-JavaScript#readme",
-  "keywords": []
+  "keywords": [],
+  "dependencies": {
+    "jest": "^29.0.3"
+  }
 }
