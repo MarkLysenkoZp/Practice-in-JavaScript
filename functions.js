@@ -23,25 +23,25 @@
 
   function mathsUpdate(a,b, action = 'add'){
 
-    switch(action){
-      case 'add':
-      return a+b
-      break;
+  switch(action){
+    case 'add':
+    return a+b
+    break;
 
-      case 'mult':
-      return a*b;
-      break;
+    case 'mult':
+    return a*b;
+    break;
 
-      case 'min':
-      return a-b;
-      break;
+    case 'min':
+    return a-b;
+    break;
 
-      case 'div':
-      return a/b;
-      break;
-      default:
-      throw new Error('Arithmetic operation not found');
-    }
+    case 'div':
+    return a/b;
+    break;
+    default:
+    throw new Error('Arithmetic operation not found');
+  }
   }
   mathsUpdate(6,2,"add");
  
@@ -65,3 +65,5 @@
     return  operation()   
   }
   hash_Maths(6,2,'add');  
+
+  
