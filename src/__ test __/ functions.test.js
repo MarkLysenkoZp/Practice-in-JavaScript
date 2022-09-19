@@ -28,10 +28,9 @@ describe('functions', () => {
 
 // tests for mathsSwitch function
 
-
 describe('functions', () => {
   test('mathsSwitch add', () => {
-    expect(functions.mathsSwitch(30,189,'add')).toBe(219)
+    expect(functions.mathsSwitch(40,180,'add')).toBe(220)
   })
 }),
 
