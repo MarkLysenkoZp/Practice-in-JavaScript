@@ -1,0 +1,138 @@
+body{
+  background: linear-gradient(132.05deg, #550b21 -17.38%, #070707 78.4%), #204434;
+  -webkit-background-size: cover;
+  background-size: cover;
+  background-attachment: fixed;
+  font-family: sans-serif;
+}
+
+.form{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-image: linear-gradient(-225deg, #000000 50%, #d4c4d4 50%);
+}
+
+.form h1{
+  margin: 30px 100px;
+  padding: 0;
+  text-align: center;
+  color: #fff;
+  font-size: 30px;
+  text-transform: uppercase;
+}
+
+.input-form{
+  margin: 15px 40px;
+  text-align: center;
+}
+
+.input-form input{
+  padding: 10px;
+  width: 100%;
+  color: #fff;
+  font-size: 20px;
+  background: none;
+  outline: none;
+  border: 1px solid #fff;
+  box-sizing: border-box;
+}
+
+.input-form input[type="text"]:focus, .input-form input[type="password"]:focus{
+  border: 1px solid #034aa7;
+}
+
+.input-form input[type="submit"] {
+  margin-top: 2opx;
+  color: #fff;
+  font-weight: bold;
+  text-transform: uppercase;
+  border: none;
+  background:   #807b79;
+  transition: .3s;
+}
+
+.input-form input[type="submit"]:hover {
+  background: rgba(0,0,0,0);
+	color: #1a8dc7;
+	box-shadow: inset 0 0 0 3px #3a7999;
+}
+
+.form a{
+  display: block;
+  padding: 0 0 30px;
+  text-align: center;
+  color: #fff;
+  text-decoration: none;
+  transform: .3s;
+}
+
+.form a:hover{
+  color: #0fc3f5;
+}
+
+.fa-eye:before {
+  content: "\f06e";
+}
+
+#eye {
+  color: #333;
+  margin: 5.9px 0 0 0;
+  margin-left: -20px;
+  padding: 9px 2px 19px 0px;
+  border-radius: 0px 5px 5px 0px;
+  float: right;
+  position: relative;
+  right: 3%;
+  top: -.2%;
+  z-index: 5;
+  cursor: pointer;
+}
+
+.sign-up {
+  background:   #807b79;
+}
+
+.sign-up:hover{
+  background: rgba(0,0,0,0);
+	color: #1a1b1b;
+	box-shadow: inset 0 0 0 3px #3a7999;
+}
+
+.submits {
+  width: 38%;
+  display: inline-block;
+  float: left;
+  margin-left: 8%;
+}
+
+.submits-two {
+  width: 38%;
+  display: inline-block;
+  float: left;
+  margin-left: 31%;
+}
+
+button {
+  display: inline-block;
+  color: #252537;
+  width: 280px;
+  height: 50px;
+  padding: 0 20px;
+  background: #807b79;
+  border-radius: 5px;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  text-align: center;
+  transition: all 0.2s linear;
+  margin: 7% auto;
+  letter-spacing: 0.05em;
+}
+
+button:hover{
+  background: rgba(0,0,0,0);
+	color: #1a8dc7;
+	box-shadow: inset 0 0 0 3px #3a7999;
+}

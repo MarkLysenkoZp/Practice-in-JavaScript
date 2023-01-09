@@ -1,0 +1,23 @@
+{
+  "name": "practice-in-javascript",
+  "version": "1.0.0",
+  "description": "",
+  "main": "test.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MarkLysenkoZp/Practice-in-JavaScript.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MarkLysenkoZp/Practice-in-JavaScript/issues"
+  },
+  "homepage": "https://github.com/MarkLysenkoZp/Practice-in-JavaScript#readme",
+  "keywords": [],
+  "dependencies": {
+    "jest": "^29.0.3"
+  }
+}
